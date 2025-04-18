@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: weather-app
-        image: shridhar71/weather:v1.1
+        image: shridhar71/weather:v1.2
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
