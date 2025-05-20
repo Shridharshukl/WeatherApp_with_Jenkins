@@ -36,9 +36,9 @@ const server = http.createServer((req, res) => {
   // Handle root path or specific city request
   if (parsedUrl.pathname === "/") {
     const cityName = parsedUrl.query.city || "kanpur"; // Default to Kanpur if no city provided
-    
+    //add Your api token in place of <api-token>
     requests(
-      `http://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&appid=cffecceafab4795d98bde4086c0332bb`
+      `http://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&appid=<api-token>`
     )
       .on("data", (chunk) => {
         try {
