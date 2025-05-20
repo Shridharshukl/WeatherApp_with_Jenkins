@@ -1,7 +1,3 @@
-Here’s a **clean and professional README** for your `WeatherApp_with_Jenkins` repo, followed by a **GitHub description**:
-
----
-
 # 🌦️ WeatherApp with Jenkins CI/CD
 
 A Node.js-based Weather Application integrated with Jenkins to demonstrate a complete CI/CD pipeline, including static code analysis with SonarQube, container security scanning using Trivy, Docker image building and publishing, and automated deployment updates via Git.
